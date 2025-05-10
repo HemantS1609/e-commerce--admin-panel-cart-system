@@ -1,0 +1,8 @@
+.role-dropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+.option-input {
+  height: 35px;
+  /* padding: 10px; */
+}

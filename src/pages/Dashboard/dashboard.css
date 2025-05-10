@@ -1,0 +1,58 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-container {
+  height: 40px;
+  width: 270px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 0 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.search {
+  flex: 1;
+  padding: 7px;
+  border: none !important;
+  outline: none !important;
+}
+
+.search-icon {
+  font-size: 18px;
+  color: #555;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+thead {
+  background: cadetblue;
+}
+
+thead tr th {
+  padding: 10px;
+}
+.no-data-found {
+  height: 230px;
+}
+tbody tr {
+  border-bottom: 1px solid black;
+}
+tbody tr td {
+  padding: 10px;
+}
+
+.action-button {
+  display: flex;
+  gap: 10px;
+}

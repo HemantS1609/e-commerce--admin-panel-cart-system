@@ -1,0 +1,8 @@
+.text-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-input {
+  height: 35px;
+  padding: 10px;
+}
