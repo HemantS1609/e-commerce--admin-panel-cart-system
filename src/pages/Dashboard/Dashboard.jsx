@@ -3,7 +3,7 @@ import Button from "../../components/Button/Button";
 import AddUserModal from "../../components/AddUserModal/AddUserModal";
 import DeleteModal from "../../components/DeleteModal";
 import "./dashboard.css";
-import HOc from "../../components/HOC/HOc";
+import HigherOrderAuthentication from "../../components/HigherOrderAuthentication";
 
 const Dashboard = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -124,4 +124,4 @@ const Dashboard = () => {
   );
 };
 
-export default HOc(Dashboard);
+export default HigherOrderAuthentication(Dashboard);
