@@ -1,12 +1,27 @@
-# React + Vite
+E-commerce Admin Dashboard & Cart System
+A frontend-only e-commerce platform built with React + Vite, featuring a dynamic admin panel for user management and a full-featured shopping cart system for users.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔐 Admin Panel
+- Admin login authentication
+- User management: Add, Update, Delete, Search (by Name or Email)
+- User data stored in Local Storage
 
-Currently, two official plugins are available:
+🛍️ User Interface
+- Product list fetched via API
+- Product detail page with "Add to Cart" and quantity selection
+- Real-time cart count in the navigation bar
+- Cart page with item management and total price calculation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+- React + Vite with HMR (Hot Module Replacement)
+- Redux Toolkit for state management
+- Local Storage for user and cart persistence
+- Fetch API to load product data
+- ESLint for code quality
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💻 Dev Environment
+- This project uses Vite for fast and lightweight development:
+- @vitejs/plugin-react for Fast Refresh using Babel
+- Optionally use @vitejs/plugin-react-swc for SWC support
+- ESLint included with basic rules – consider expanding it for production use
